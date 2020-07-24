@@ -15,6 +15,7 @@ export interface IProps {
 	onStarSelected: (e: number) => void;
 	onClosed: () => void;
 	sendContactUsForm: (state: IState) => void;
+	onSendReview: () => void;
 	playStoreUrl?: string;
 	iTunesStoreUrl?: string;
 	style: ViewStyle;
